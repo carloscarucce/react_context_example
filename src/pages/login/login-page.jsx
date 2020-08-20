@@ -20,8 +20,8 @@ class LoginPage extends React.Component {
             token: e.target.querySelector("input[name='token']").value,
         };
 
-        console.log("userdata", userdata);
         setUser(userdata.username, userdata.token);
+        this.props.history.replace('/panel');
     }
 
     render() {
