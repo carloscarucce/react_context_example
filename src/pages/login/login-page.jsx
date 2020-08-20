@@ -5,13 +5,6 @@ import {UserContext} from "../../contexts/user-context";
  *
  */
 class LoginPage extends React.Component {
-    /**
-     *
-     */
-    constructor(props, context) {
-        super(props, context);
-    }
-
     submitForm = (e, setUser) => {
         e.preventDefault();
 
